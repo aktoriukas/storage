@@ -1,0 +1,18 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "store your data",
+  "main": "index.js",
+  "scripts": {
+    "install-start": "npm install && npm start",
+    "start": "node index"
+  },
+  "author": "aktoriukas",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^9.0.1",
+    "read": "^1.0.7"
+  }
+}
